@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+mark {
+  border: solid 2px orange; /*darkorange*/
+  background-color: bisque; /*rgb(255, 212, 183)*/
+}
+
+p {
+  margin: 15px;
+  width: 90vh;
+}
+
+span {
+  color: yellowgreen; /*rgb(86, 192, 0)*/
+}
